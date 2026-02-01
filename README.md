@@ -25,7 +25,7 @@ This project is designed as a beginner-friendly backend chatbot that can later b
 
 project-folder/
 │
-├── chatbot_backend.py   # Main chatbot logic
+├── customerSupportChatbot.py   # Main chatbot logic
 ├── test_bot.py          # Script to test chatbot
 └── README.md            # Documentation
 
@@ -91,7 +91,7 @@ This script will test:
 # 💬 Text Chat Example
 
 ```python
-from chatbot_backend import text_chat
+from customerSuppoerChatbot import text_chat
 
 response = text_chat("how can i track my order")
 print(response)
@@ -108,7 +108,7 @@ You can track your order using the tracking link sent to your email.
 # 🎤 Voice Chat Example
 
 ```python
-from chatbot_backend import voice_chat
+from customerSuppoerChatbot import voice_chat
 
 result = voice_chat()
 print(result)
@@ -125,7 +125,7 @@ How it works:
 
 # 🛠 Customizing Questions & Answers
 
-Open `chatbot_backend.py` and edit:
+Open `customerSuppoerChatbot.py` and edit:
 
 ```python
 questions = [
